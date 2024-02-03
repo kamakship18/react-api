@@ -18,7 +18,6 @@ function App() {
       })
       .catch((err) => {
         if (err.request.status === 404) {
-          console.log("Status Code: 404");
           console.log("Website not found");
         }
       });
